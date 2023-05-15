@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,500;1,400;1,500&display=swap" rel="stylesheet" />
+    <link href="styles.css" rel="stylesheet" />
+    <title>Inspiration</title>
+  </head>
+  <body class="contact-body">
+      <header>
+      <div class="nav-bar">
+        <a href="index.html" class="nav-title">Where Inspiration Strikes</a>
+        <nav>
+          <ul class="nav-right">
+            <li class="nav-box">
+              <a href="index.html" class="nav-home">Home</a>
+            </li>
+            <li class="nav-box">
+              <a href="contact.html" class="nav-contact">Contact</a>
+            </li>
+            <li class="nav-box">
+              <a href="resources.html" class="nav-resources">Resources</a>
+            </li>
+            <li class="nav-box">
+              <a href="gallery.html" class="nav-gallery">Gallery</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+      <div class="contact-page">
+        <form action="none" method="none">
+          <fieldset>
+            <div class="form-wrap">
+            <h1>Contact</h1>
+              <div>
+                <label for="contact_name">
+                  Name:
+                  <input type="text" name="contact-name" id="contact_name" placeholder="First M Last" minlength="3" required />
+                </label>
+              </div>
+              <div>
+                <label for="contact_email">
+                  Email:
+                  <input type="text" name="contact-email" id="contact_email" placeholder="someone@example.com" minlength="6" required />
+                </label>
+              </div>
+              <div>
+                <label for="message_box">
+                  <textarea name="text-enter" id="message_box" required></textarea>
+                </label>
+              </div>
+              <div class="checkbox">
+                <label for="checkbox">
+                <input type="checkbox" required /><span></span>
+                Check Me If You Understand That This Form Does Nothing!!
+                </label>
+              </div>
+              <div class="button_div">
+                <button type="submit">Send!</button>
+              </div>
+            </div>
+          </fieldset>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
